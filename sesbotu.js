@@ -1,6 +1,5 @@
 const { Discord, Client, MessageEmbed, WebhookClient} = require('discord.js');
 const client = global.client = new Client({fetchAllMembers: true});
-const acar = require('./acar.json');
 const fs = require('fs');
 const express = require('express');
 const request = require('request')
